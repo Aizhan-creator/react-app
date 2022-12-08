@@ -1,7 +1,30 @@
 .App {
   text-align: center;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+button {
+  font-size: 2em;
+  border: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+}
+
+li {
+  margin: 0 20px;
+  list-style: none;
+  padding: 0;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +37,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #94a0b8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
